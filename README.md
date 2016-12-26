@@ -6,7 +6,7 @@ just scroll down
 ![mda](https://pp.vk.me/c636726/v636726081/41e51/4d-PugicBHU.jpg)
 
 * src/andrej.java
-```
+```java
 public static int getIntMaxValue() {
     return getIntMaxValue(0);
 }
@@ -17,12 +17,12 @@ private static int getIntMaxValue(int x) {
 ```
 
 * src/ivan1.java
-```
+```java
 int getMaxInt() { return ~(1«31); }
 ```
 
 * src/ivan2.java
-```
+```java
 import one.util.streamex.IntStreamEx;
  
 public static int getMaxInt() {
@@ -34,7 +34,7 @@ public static int getMaxInt() {
 ```
 
 * src/substancia1.java
-```
+```java
 //substancia #1
 
 public static int getIntMaxValue() {
@@ -51,7 +51,7 @@ return i;
 ```
 
 * src/substancia2.scala
-```
+```scala
 def getMaxInt() {
   val (maxint, _) = Stream.continually(())
     .zipWithIndex
@@ -67,7 +67,7 @@ def getMaxInt() {
 ```
 
 * src/vlados1.d
-```
+```d
 // fully rewrited by substancia
 
 import std.math;
