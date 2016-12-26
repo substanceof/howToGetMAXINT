@@ -35,8 +35,6 @@ public static int getMaxInt() {
 
 * src/substancia1.java
 ```java
-//substancia #1
-
 public static int getIntMaxValue() {
 while (1 == 1) {
 int old = i;
@@ -48,6 +46,8 @@ break;
 }
 return i;
 }
+
+// pls no spaces
 ```
 
 * src/substancia2.scala
